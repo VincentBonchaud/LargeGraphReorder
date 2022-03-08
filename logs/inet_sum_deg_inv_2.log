@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/inet_sum_deg_inv_2.graph
+Edge count: 11095296
+Vertice count: 1719037
+Louvain results:
+ - Modularity: 0.8438212886244445
+ - Clustering with 1719037 elements and 23747 clusters
+ - Computed in 149734 ms

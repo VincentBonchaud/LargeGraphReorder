@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/p2p_bfs_med_root.graph
+Edge count: 142038399
+Vertice count: 5792297
+Louvain results:
+ - Modularity: 0.5075820026364003
+ - Clustering with 5792297 elements and 411836 clusters
+ - Computed in 3503654 ms

@@ -1,0 +1,40 @@
+DATA_DIR='../data/'
+LOGS_DIR='logs/'
+GRAPH_DIR='renum_graph/'
+GRAPH_NAME='web'
+
+python3 src/main.py -r BFS_MAX_ROOT -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_bfs_max_root.graph"
+python3 src/main.py -r BFS_MIN_ROOT -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_bfs_min_root.graph"
+python3 src/main.py -r BFS_MED_ROOT -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_bfs_med_root.graph"
+python3 src/main.py -r BFS_MAX_LEAF -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_bfs_max_leaf.graph"
+python3 src/main.py -r BFS_MIN_LEAF -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_bfs_min_leaf.graph"
+python3 src/main.py -r BFS_MED_LEAF -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_bfs_med_leaf.graph"
+python3 src/main.py -r DEG -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_deg.graph"
+python3 src/main.py -r DEG_INV -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_deg_inv.graph"
+python3 src/main.py -r RAN -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_rand.graph"
+python3 src/main.py -r SUM_DEG -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_sum_deg.graph"
+python3 src/main.py -r SUM_DEG_INV -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_sum_deg_inv.graph"
+python3 src/main.py -r SUM_DEG_2 -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_sum_deg_2.graph"
+python3 src/main.py -r SUM_DEG_INV_2 -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_sum_deg_inv_2.graph"
+python3 src/main.py -r DFS_MAX_ROOT -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_dfs_max_root.graph"
+python3 src/main.py -r DFS_MIN_ROOT -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_dfs_min_root.graph"
+python3 src/main.py -r DFS_MED_ROOT -d -f "${DATA_DIR}${GRAPH_NAME}" -g "${GRAPH_DIR}${GRAPH_NAME}_dfs_med_root.graph"
+
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_bfs_max_root.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_bfs_max_root.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_bfs_min_root.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_bfs_min_root.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_bfs_med_root.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_bfs_med_root.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_bfs_max_leaf.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_bfs_max_leaf.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_bfs_min_leaf.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_bfs_min_leaf.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_bfs_med_leaf.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_bfs_med_leaf.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_dfs_max_root.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_dfs_max_root.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_dfs_min_root.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_dfs_min_root.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_dfs_med_root.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_dfs_med_root.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_deg.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_deg.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_deg_inv.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_deg_inv.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_rand.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_rand.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_sum_deg.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_sum_deg.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_sum_deg_inv.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_sum_deg_inv.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_sum_deg_2.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_sum_deg_2.log"
+python3 src/main.py -f "${GRAPH_DIR}${GRAPH_NAME}_sum_deg_inv_2.graph" -l -o "${LOGS_DIR}${GRAPH_NAME}_sum_deg_inv_2.log"
+python3 src/main.py -f "${DATA_DIR}${GRAPH_NAME}" -l -d -o "${LOGS_DIR}${GRAPH_NAME}.log"
+

@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/inet_dfs_min_root.graph
+Edge count: 11095296
+Vertice count: 1719037
+Louvain results:
+ - Modularity: 0.0
+ - Clustering with 1719037 elements and 1719037 clusters
+ - Computed in 4432 ms

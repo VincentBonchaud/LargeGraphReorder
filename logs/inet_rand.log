@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/inet_rand.graph
+Edge count: 11095296
+Vertice count: 1719037
+Louvain results:
+ - Modularity: 0.34371928969882437
+ - Clustering with 1719037 elements and 651473 clusters
+ - Computed in 168806 ms

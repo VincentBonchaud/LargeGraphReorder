@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/ip_dfs_max_root.graph
+Edge count: 19394216
+Vertice count: 2250498
+Louvain results:
+ - Modularity: 0.26246562588539385
+ - Clustering with 2250498 elements and 670 clusters
+ - Computed in 332535 ms

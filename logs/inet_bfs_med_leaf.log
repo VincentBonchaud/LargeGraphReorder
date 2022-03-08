@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/inet_bfs_med_leaf.graph
+Edge count: 11095296
+Vertice count: 1719037
+Louvain results:
+ - Modularity: 0.8387921741901212
+ - Clustering with 1719037 elements and 24868 clusters
+ - Computed in 156045 ms

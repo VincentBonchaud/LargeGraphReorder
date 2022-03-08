@@ -1,0 +1,7 @@
+Graph loaded from: ../data/p2p
+Edge count: 142038400
+Vertice count: 5792297
+Louvain results:
+ - Modularity: 0.5026510757298266
+ - Clustering with 5792297 elements and 411794 clusters
+ - Computed in 4120158 ms

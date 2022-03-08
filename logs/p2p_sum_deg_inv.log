@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/p2p_sum_deg_inv.graph
+Edge count: 142038399
+Vertice count: 5792297
+Louvain results:
+ - Modularity: 0.49648386007459433
+ - Clustering with 5792297 elements and 411767 clusters
+ - Computed in 4135231 ms

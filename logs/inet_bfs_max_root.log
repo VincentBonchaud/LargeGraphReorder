@@ -1,0 +1,7 @@
+Graph loaded from: renum_graph/inet_bfs_max_root.graph
+Edge count: 11095296
+Vertice count: 1719037
+Louvain results:
+ - Modularity: 0.8388075540622032
+ - Clustering with 1719037 elements and 24932 clusters
+ - Computed in 239744 ms
